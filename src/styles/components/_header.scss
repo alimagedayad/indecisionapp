@@ -1,0 +1,27 @@
+.header
+{
+  background: $offBlack;
+  margin-bottom: $xl-size;
+  padding: $m-size 0;
+  color:$white;
+}
+// BEM block element modifier
+.header__title
+{
+    font-size:$l-size;
+    margin:0;
+}
+.header__subtitle
+{
+  color: $offWhite;
+  font-size:$m-size;
+  font-weight: 500;
+  margin: 0;
+}
+@media (max-width: $desktopBreakpoint)
+{
+  .header
+  {
+    margin-bottom: $m-size;
+  }
+}
